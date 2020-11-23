@@ -1,0 +1,168 @@
+/* general styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #3a506b;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  color: #FFFFFF;
+  background: #0c0f0a;
+  text-align: left;
+  margin: -25px 0 10px 0;
+  padding: 20px 0 0 0;
+ }
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+  margin: 15px 0 0 5px;
+  padding: 10px 0 -30px 0;
+}
+
+/* main section styles */ 
+
+main {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+   
+}
+
+.img1 {
+  border-radius: 10px;
+  margin: 0 30px 0 0;
+}
+
+.img-small{
+  width:25%;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */ 
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  color: #FFFFFF;
+  margin: 20px 0 10px 0;
+  padding: 10px 0 5px 0;
+}
+
+h3{  
+  font-family: Bradley Hand, Arial, sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 20px 0 10px 0;
+  padding: 5px;
+}
+
+h4 {
+  font-family: Bradley Hand, Arial, sans-serif;
+  font-size: 25px;
+  color: #bcc5c5;
+  padding: 0 0 10px 0;
+  margin: -2px 0 0 5px;
+}
+
+p {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  margin: 0% 15%;
+  padding: 2% 5%;
+  text-align: justify;
+}
+
+hr{
+  height: 0px;
+  border: 0px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.list{ 
+  font-family: Optima, Arial, sans-serif;
+  font-size: 17px;
+  list-style-position: inside;
+  color: #FFFFFF;
+  text-align: justify;
+  margin: 0% 15%;
+  padding: 1%;
+}
+
+.center {
+  text-align: center;
+}
+/* project section */
+
+section.bg-callout {
+  padding: 20px;
+  background: #bcc5c5;
+}
+
+
+/* contact section */
+
+a {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 17px;
+}
+
+a:link {color: #0b132b;}
+a:visited {color:#bcc5c5;}
+a:hover {color:#6fffe9;}
+a:active {color:#FFFFFF;}
+
+/* footer */
+
+footer {
+  background: #0c0f0a;
+  text-align: center;
+  padding: 20px 0 15px 0;
+}
+
+
+h5 {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 10px;
+  color: #bcc5c5;
+  padding: 0 0 10px 0;
+  margin: -2px 0 0 5px;
+}
+
+/* Groups/Items for Mobile */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 5px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px
+}
+
+/* Groups/Items for Desktop */
+
+@media all and (min-width: 800px) {
+
+  .group {
+  flex-direction: row;
+  
+  }
+}
